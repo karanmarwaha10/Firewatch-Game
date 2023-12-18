@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height:100vh;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+html {
+	background-color: #210002;
+	color: #ffaf00;
+	font-family: 'Verlag A', 'Verlag B', "Verlag";
+	font-weight: 300;
+	font-style: normal;
+	text-align: center;
+	font-size: 20px;
+}
+
+.container{
+    position:relative;
+    /* height: 100%; */
+    display:flex;
+ 
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+    height: 1301px;
+  object-fit: cover;
+}
+
+.parallax0{
+    transform: translateZ(-40px) scale(5);
+}
+
+.parallax1{
+   
+    transform: translateZ(-20px) scale(3);
+}
+.parallax2{
+   
+    transform: translateZ(-20px) scale(3);
+}
+.parallax3{
+   
+    transform: translateZ(-20px) scale(3);
+}
+.parallax4{
+   
+    transform: translateZ(-20px) scale(3);
+}
+.parallax5{
+   
+    transform: translateZ(-20px) scale(3);
+}
+
+.parallax6{
+   
+    transform: translateZ(-10px) scale(2);
+}
+.parallax7{
+   
+    transform: translateZ(-10px) scale(2);
+}
+.parallax8{
+   
+    transform: translateZ(-8px) scale(1.);
+}
+
+.parallax0,.parallax1,.parallax2,.parallax3,.parallax4,.parallax5,.parallax6,.parallax7,.parallax8{
+    position:absolute;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    z-index:-1;
+}
+
+h1{
+    position: absolute;
+    top:5rem;
+
+    font-size:10rem;
+    letter-spacing:4px;
+    color:white;
+    text-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+.sectionbuy{
+ letter-spacing: 10px;
+ font-family: Skolar Latin Light;
+ font-size: 90%;
+ margin-bottom: 40px;
+}
+
+#maincontent{
+    position: relative;
+    background-color: #210002;
+    z-index: 98;
+    height: 740%;
+}
+h2,h2,h3,h4{
+    text-transform: uppercase;
+    
+}
+.banner span {
+    background: url(bannerleft.png) no-repeat left top / contain, url(bannerright.png) no-repeat right top / contain;
+    background-color: #ffaf00;
+    color: #210002;
+    display: inline-block;
+    padding: 4em 1.1em;
+    background-clip: padding-box;
+    outline: 1px solid #210002;
+    transition: background-color 0.15s;
+  
+}
+
+.smalllinks h4.banner span {
+    padding: 4px 13px 3px 16px;
+}
+.section.internallinks {
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: 0;
+}
+.smalllinks h4 {
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 700;
+   
+}
+
+ul.links.smalllinks {
+    display: inline-block;
+    width: 425px;
+    margin: 0 25px;
+}
+
+.gridwithicons.section.internallinks, .gridwithicons.section.internallinks * {
+    vertical-align: top;
+}
+.section.internallinks .smalllinks li {
+    margin-bottom: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+.section.internallinks .smalllinks li {
+    margin-bottom: 40px;
+}
+.section.buy {
+    color: #210002;
+    margin-bottom: 80px;
+    margin-bottom: 40px;
+}
+
+
+.videocontain iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* justify-content: center; */
+    width: 100%;
+    height:100%;
+}
+.videocontain {
+    position: relative;
+    padding-bottom: 56.1%;
+    height: 0;
+    overflow: hidden;
+}
+div{
+    display: block;
+}
+
+.section.feature {
+    width: 100%;
+    max-width: none;
+    margin: 50px auto 120px;
+    width: 900px;
+}
+
+.section.description {
+    text-align: left;
+    line-height: 1.6em;
+    margin-top: 80px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section.description h5 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+.columntext p {
+    margin-bottom: 1.6em;
+    width: 325px;
+    display: inline-block;
+}
+
+.section.internallinks {
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: 0;
+}
+ul.links.smalllinks {
+    display: inline-block;
+    width: 425px;
+    margin:  5px;
+    color: #210002;
+}
+
+.section.screenshots .thumbnails li {
+    display: inline-block;
+    width: 47%;
+    margin-bottom: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.section.screenshots .thumbnails li, .screenshot img {
+    opacity: 0.85;
+    transition: opacity .2s;
+}
+
+.section.pressquote {
+    margin: 30px auto 60px;
+}
+.section.pressquote.big h2 {
+    font-size: 38px;
+    letter-spacing: 3px;
+    margin-top: 80px;
+}
+.section.pressquote.big h3 {
+    font-size: 23px;
+    letter-spacing: 4px;
+    margin-top: 40px;
+}
+.section.pressquote h3 {
+    font-weight: 700;
+    color: #973700;
+}
+.section.pressquote h3 {
+    line-height: 1.35em;
+    margin: 20px auto;
+}
+
+.section.support ul.supportlinks {
+    height: 68px;
+    background-image: url(support.png);
+  
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-left: 10px;
+    margin-right: -30px;
+    display: flex;
+    align-items: center;
+}
+
+.section.support .supportlinks li {
+    display: inline-block;
+    width: 50%;
+    margin-top: 23px;
+}
+.section.support .supportlinks .link a {
+    margin: 0 50px;
+}
+.smalllinks li a {
+    display: inline-block;
+}
+
+a, a:link, a:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
